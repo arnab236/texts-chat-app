@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { AuthContext } from "./AuthContext";
 import toast from "react-hot-toast";
-// import { getMessages } from "../../server/controllers/message.controller";
 
 
 export const ChatContext = createContext();
