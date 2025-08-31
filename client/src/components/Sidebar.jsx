@@ -34,7 +34,7 @@ const Sidebar = () => {
                     </div>
                     <div className='relative py-2 group'>
                         <img src={assets.menu_icon} alt="menu" className='max-h-5 cursor-pointer' />
-                        <div className={`absolute top-full right-0 z-20 w-32 p-5 rounded-md bg-[#282142] border border-gray-600 text-gray-100 group-hover:block group-active:block ${open ? "block" : "hidden"}`} onClick={() => setOpen(!open)}>
+                        <div className={`absolute top-full right-0 z-20 w-32 p-5 rounded-md bg-[#282142] border border-gray-600 text-gray-100  ${open ? "block" : "hidden"}`} onClick={() => setOpen(!open)}>
                             <p onClick={()=> navigate('/profile')} className='cursor-pointer text-sm'>Edit Profile</p>
                             <hr className='my-2 border-t border-gray-500'/>
                             <p onClick={() => logout()} className='cursor-pointer text-sm'>Logout</p>
